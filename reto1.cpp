@@ -39,8 +39,8 @@ int main(int argc, char *argv[]) {
         }
         archivo.close();
         cout << "solución: " << sol << endl;
-    } else {
-        cout << "no se pudo abrir el archivo." << endl;
-    }
+        
+    } else cout << "no se pudo abrir el archivo." << endl;
+    
     return 0;
 }
