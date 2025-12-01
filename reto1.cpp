@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
     ifstream archivo("input");
     int sol = 0;
     int posicion = 50;
-    int valor, div, v;
+    int valor;
 
     if (archivo.is_open()) {
         string linea;
