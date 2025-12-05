@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <map>
+#include <algorithm>
 using namespace std;
 
 int main (int argc, char *argv[]) {
@@ -12,7 +12,7 @@ int main (int argc, char *argv[]) {
 
     vector<pair<long long,long long>> rangos;
     string linea;
-    int sol = 0;
+    //int sol = 0;
 
     while (getline(archivo, linea)) {
         if (linea == "") break;
